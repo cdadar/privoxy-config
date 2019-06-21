@@ -1,0 +1,4 @@
+# 这一行表示本 action 文件中所有条目都使用代理
+{+forward-override{forward-socks5 127.0.0.1:7070 .}}
+# 添加一条规则
+.google.com
