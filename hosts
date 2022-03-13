@@ -9,28 +9,15 @@
 # IP-Address  Full-Qualified-Hostname  Short-Hostname
 #
 
-
-# special IPv6 addresses
-
-
 127.0.0.1	localhost
-::1	localhost ipv6-localhost ipv6-loopback
-fe00::0	ipv6-localnet
-ff00::0	ipv6-mcastprefix
-ff02::1	ipv6-allnodes
-ff02::2	ipv6-allrouters
-ff02::3	ipv6-allhosts
 127.0.0.1	linux-asdf
+# special IPv6 addresses
+::1             localhost ipv6-localhost ipv6-loopback
 
+fe00::0         ipv6-localnet
 
-140.82.113.4    github.com
-199.232.69.194    github.global.ssl.fastly.net
-185.199.108.153    assets-cdn.github.com
-185.199.109.153    assets-cdn.github.com
-185.199.110.153    assets-cdn.github.com
-185.199.111.153    assets-cdn.github.com
-
-127.0.0.1	local-admin.cang.com
-127.0.0.1	local-web.cang.com
-127.0.0.1	local-im.cang.com
+ff00::0         ipv6-mcastprefix
+ff02::1         ipv6-allnodes
+ff02::2         ipv6-allrouters
+ff02::3         ipv6-allhosts
 
